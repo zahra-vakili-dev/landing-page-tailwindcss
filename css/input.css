@@ -13,3 +13,12 @@
     @apply px-5 py-3 text-sm rounded-lg
   }
 }
+
+img {
+        max-width: 100%;
+        height: auto;
+        display: block; }
+
+
+* {
+        box-sizing: border-box; }        
