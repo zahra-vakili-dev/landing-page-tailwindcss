@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brandprimary:#4CAF4F;
+  --color-naturalsilver:#F5F7FA;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center gap-2 bg-brandprimary text-white rounded-md px-8 py-4 font-medium transition-colors duration-200 hover:bg-brandprimary/90
+  }
+  .btn-sm {
+    @apply px-5 py-3 text-sm rounded-lg
+  }
+}

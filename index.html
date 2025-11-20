@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY FIRST LANDING</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <header class="bg-naturalsilver py-5">
+      <div class="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-8">
+        <!-- logo -->
+        <div class="flex items-center gap-2">
+          <button class="md:hidden text-2xl px-2" aria-label="Open menu">☰</button>
+          <img src="./images/Icon.svg" alt="Nexcent logo" />
+          <a href="/" class="text-3xl font-bold text-gray-800">Nexcent</a>
+        </div>
+
+        <!-- navigation -->
+        <nav class="hidden md:flex items-center gap-8" aria-label="Primary navigation">
+          <a href="#" class="text-gray-700 hover:text-brandprimary font-medium">Home</a>
+          <a href="#" class="text-gray-700 hover:text-brandprimary font-medium">Service</a>
+          <a href="#" class="text-gray-700 hover:text-brandprimary font-medium">Feature</a>
+          <a href="#" class="text-gray-700 hover:text-brandprimary font-medium">Product</a>
+          <a href="#" class="text-gray-700 hover:text-brandprimary font-medium">Testimonial</a>
+          <a href="#" class="text-gray-700 hover:text-brandprimary font-medium">FAQ</a>
+        </nav>
+
+        <!-- cta -->
+        <div class="hidden md:flex items-center gap-7">
+          <a href="#" class="text-brandprimary font-medium">Login</a>
+          <a href="#" class="btn btn-sm">Sign up</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="bg-naturalsilver py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-24">
+          <!-- text -->
+          <div class="text-center md:text-left">
+            <h1 class="text-gray-600 text-4xl md:text-5xl lg:text-7xl font-semibold">
+              Lessons and insights <br />
+              <span class="text-brandprimary">from 8 years</span>
+            </h1>
+            <p class="text-gray-500 py-7 max-w-xl text-lg">
+              Where to grow your business as a photographer: site or social media?
+            </p>
+            <a href="#" class="btn">Register</a>
+          </div>
+
+          <!-- image -->
+          <div>
+            <img src="./images/Illustration.svg" alt="Illustration showing product" class="w-full max-w-md" />
+          </div>
+        </div>
+
+        <!-- dots -->
+        <div class="absolute left-1/2 -translate-x-1/2 bottom-4">
+          <img src="./images/Dot.svg" alt="pagination dot" class="w-11" />
+        </div>
+      </section>
+
+      <!-- Clients -->
+      <section class="py-12 max-w-7xl mx-auto px-4">
+        <div class="text-center">
+          <h2 class="text-4xl text-gray-600 font-semibold">Our Clients</h2>
+          <p class="text-gray-500 text-lg mt-3">We have been working with some Fortune 500+ clients</p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-8 mt-10 items-center">
+          <img src="./images/Logo.svg" class="h-12 mx-auto" alt="Client logo 1" />
+          <img src="./images/Logo (1).svg" class="h-12 mx-auto" alt="Client logo 2" />
+          <img src="./images/Logo (2).svg" class="h-12 mx-auto" alt="Client logo 3" />
+          <img src="./images/Logo (3).svg" class="h-12 mx-auto" alt="Client logo 4" />
+          <img src="./images/Logo (4).svg" class="h-12 mx-auto" alt="Client logo 5" />
+          <img src="./images/Logo (6).svg" class="h-12 mx-auto" alt="Client logo 6" />
+          <img src="./images/Logo (2).svg" class="h-12 mx-auto" alt="Client logo 7" />
+        </div>
+      </section>
+
+      <!-- Community cards -->
+      <section class="max-w-7xl mx-auto px-4 py-8">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl text-gray-600 font-semibold">Manage your entire community <br />in a single system</h2>
+          <p class="text-gray-500 text-lg mt-3">Who is Nextcent suitable for?</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20">
+          <!-- card 1 -->
+          <article class="bg-white rounded-xl shadow-md text-center p-7 max-w-xs mx-auto">
+            <img src="./images/Icon (3).svg" alt="Membership organisations icon" class="w-16 mx-auto" />
+            <h3 class="text-3xl font-semibold text-gray-600 my-3">Membership Organisations</h3>
+            <p class="text-gray-500">Our membership management software provides full automation of membership renewals and payments</p>
+          </article>
+
+          <!-- card 2 -->
+          <article class="bg-white rounded-xl shadow-md text-center p-7 max-w-xs mx-auto">
+            <img src="./images/Icon (1).svg" alt="National associations icon" class="w-16 mx-auto" />
+            <h3 class="text-3xl font-semibold text-gray-600 my-3">National Associations</h3>
+            <p class="text-gray-500">Our membership management software provides full automation of membership renewals and payments</p>
+          </article>
+
+          <!-- card 3 -->
+          <article class="bg-white rounded-xl shadow-md text-center p-7 max-w-xs mx-auto">
+            <img src="./images/Icon (2).svg" alt="Clubs and groups icon" class="w-16 mx-auto" />
+            <h3 class="text-3xl font-semibold text-gray-600 my-3">Clubs And Groups</h3>
+            <p class="text-gray-500">Our membership management software provides full automation of membership renewals and payments</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Article 1 -->
+      <section class="max-w-7xl mx-auto px-4 flex flex-col-reverse gap-10 md:flex-row items-center justify-center py-10">
+        <div>
+          <img src="./images/Frame 35.svg" alt="feature illustration" class="max-w-md" />
+        </div>
+
+        <div class="text-center md:text-left max-w-xl ml-0 md:ml-7">
+          <h2 class="text-4xl text-gray-600 font-semibold">The unseen of spending three years at Pixelgrade</h2>
+          <p class="text-gray-500 text-lg py-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section class="bg-naturalsilver py-20">
+        <div class="max-w-7xl mx-auto flex flex-col gap-14 md:flex-row justify-around items-center">
+          <div>
+            <h2 class="text-4xl text-gray-600 font-semibold">Helping a local <br /><span class="text-brandprimary">business reinvent itself</span></h2>
+            <p class="text-gray-900 text-lg pt-4">We reached here with our hard work and dedication</p>
+          </div>
+
+          <div class="grid grid-cols-2 gap-y-9 gap-x-20">
+            <div class="flex items-center gap-3">
+              <div><img src="./images/Icon (4).svg" alt="members icon" /></div>
+              <div>
+                <h2 class="text-3xl text-gray-600 font-semibold">2,245,341</h2>
+                <p class="text-gray-500 text-lg">Members</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div><img src="./images/Icon (4).svg" alt="clubs icon" /></div>
+              <div>
+                <h2 class="text-3xl text-gray-600 font-semibold">46,328</h2>
+                <p class="text-gray-500 text-lg">Clubs</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div><img src="./images/Icon (6).svg" alt="bookings icon" /></div>
+              <div>
+                <h2 class="text-3xl text-gray-600 font-semibold">828,867</h2>
+                <p class="text-gray-500 text-lg">Event Bookings</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div><img src="./images/Icon (7).svg" alt="payments icon" /></div>
+              <div>
+                <h2 class="text-3xl text-gray-600 font-semibold">1,926,436</h2>
+                <p class="text-gray-500 text-lg">Payments</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Article 2 -->
+      <section class="max-w-7xl mx-auto px-4 flex flex-col-reverse gap-10 md:flex-row items-center justify-center py-10">
+        <div>
+          <img src="./images/pana.svg" alt="pana illustration" class="max-w-md" />
+        </div>
+
+        <div class="text-center md:text-left max-w-xl ml-0 md:ml-7">
+          <h2 class="text-4xl text-gray-600 font-semibold">How to design your site footer like we did</h2>
+          <p class="text-gray-500 text-lg py-7">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+      </section>
+
+      <!-- Customers -->
+      <section class="bg-naturalsilver">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse gap-10 md:flex-row items-center justify-center py-8">
+          <div>
+            <img src="./images/image 9.svg" alt="testimonial image" class="max-w-md" />
+          </div>
+
+          <div>
+            <p class="text-gray-600 text-lg">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+            <h2 class="text-brandprimary text-xl font-semibold py-2">Tim Smith</h2>
+            <p class="text-gray-400 text-lg">British Dragon Boat Racing Association</p>
+
+            <div class="flex items-center gap-9 py-4 flex-wrap">
+              <img src="./images/Logo (5).svg" alt="logo" />
+              <img src="./images/Logo (1).svg" alt="logo" />
+              <img src="./images/Logo (2).svg" alt="logo" />
+              <img src="./images/Logo (3).svg" alt="logo" />
+              <img src="./images/Logo (4).svg" alt="logo" />
+              <img src="./images/Logo (6).svg" alt="logo" />
+              <a href="#" class="text-brandprimary font-medium text-2xl flex items-center gap-4">Meet all customers <img src="./images/Right.svg" alt="right arrow" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog cards -->
+      <section class="max-w-7xl mx-auto px-4 py-12 pb-36">
+        <div class="text-center mb-8">
+          <h2 class="text-4xl text-gray-600 font-semibold">Caring is the new marketing</h2>
+          <p class="text-gray-500 text-lg mt-4">The Nexcent blog is the best place to read about the latest membership insights, <br />trends and more. See who's joining the community, read about how our community <br />are increasing their membership income and lots more.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="relative mb-9">
+            <img src="./images/image 18.svg" class="w-full rounded-xl" alt="blog image 1" />
+
+            <div class="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-3 md:translate-y-1/2 bg-naturalsilver shadow-lg rounded-xl p-5 w-11/12 text-center">
+              <p class="text-gray-500 text-2xl font-medium mb-3">Creating Streamlined Safeguarding Processes with OneRen</p>
+              <a href="#" class="text-brandprimary font-medium flex justify-center items-center gap-2 text-2xl">Readmore <img src="./images/Right.svg" class="w-4" alt="arrow" /></a>
+            </div>
+          </div>
+
+          <div class="relative mb-9">
+            <img src="./images/image 19.svg" alt="blog image 2" class="w-full rounded-xl" />
+
+            <div class="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-3 md:translate-y-1/2 bg-naturalsilver shadow-lg rounded-xl p-5 w-11/12 text-center">
+              <p class="text-gray-500 text-2xl font-medium mb-3">What are your safeguarding responsibilities and how can you manage them?</p>
+              <a href="#" class="text-brandprimary font-medium flex justify-center items-center gap-2 text-2xl">Readmore <img src="./images/Right.svg" class="w-4" alt="arrow" /></a>
+            </div>
+          </div>
+
+          <div class="relative mb-9">
+            <img src="./images/image 20.svg" class="w-full rounded-xl" alt="blog image 3" />
+
+            <div class="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-3 md:translate-y-1/2 bg-naturalsilver shadow-lg rounded-xl p-5 w-11/12 text-center">
+              <p class="text-gray-500 text-2xl font-medium mb-3">Revamping the Membership Model with Triathlon <br />Australia</p>
+              <a href="#" class="text-brandprimary font-medium flex justify-center items-center gap-2 text-2xl">Readmore<img src="./images/Right.svg" class="w-4" alt="arrow" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Demo -->
+      <section class="bg-naturalsilver py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+          <h2 class="text-6xl font-semibold text-gray-800 mb-8 leading-tight">Pellentesque suscipit <br />fringilla libero eu.</h2>
+          <a href="#" class="btn items-center gap-4">Get a Demo<img src="./images/Right (1).svg" alt="right arrow" class="w-5" /></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 py-16 text-white">
+      <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-[2.5fr_1fr_1fr_1fr] gap-10">
+
+        <!-- Left Column -->
+        <div>
+          <div class="flex items-center gap-2">
+            <img src="./images/Icon (8).svg" alt="Nexcent logo" />
+            <a href="/" class="text-4xl font-bold">Nexcent</a>
+          </div>
+
+          <div class="py-9 text-gray-300">
+            <p>Copyright © 2020 Nexcent ltd.</p>
+            <p class="pt-2">All rights reserved</p>
+          </div>
+
+          <div class="flex gap-4">
+            <img src="./images/Social Icons.svg" alt="instagram icon" />
+            <img src="./images/Social Icons (1).svg" alt="dribbble icon" />
+            <img src="./images/Social Icons (2).svg" alt="twitter icon" />
+            <img src="./images/Social Icons (3).svg" alt="youtube icon" />
+          </div>
+        </div>
+
+        <!-- company -->
+        <div class="space-y-2">
+          <h5 class="text-2xl font-semibold mb-6">Company</h5>
+          <a href="#" class="block text-gray-300">About us</a>
+          <a href="#" class="block text-gray-300">Blog</a>
+          <a href="#" class="block text-gray-300">Contact us</a>
+          <a href="#" class="block text-gray-300">Pricing</a>
+          <a href="#" class="block text-gray-300">Testimonials</a>
+        </div>
+
+        <!-- support -->
+        <div class="space-y-2">
+          <h5 class="text-2xl font-semibold mb-6">Support</h5>
+          <a href="#" class="block text-gray-300">Help center</a>
+          <a href="#" class="block text-gray-300">Terms of service</a>
+          <a href="#" class="block text-gray-300">Legal</a>
+          <a href="#" class="block text-gray-300">Privacy policy</a>
+          <a href="#" class="block text-gray-300">Status</a>
+        </div>
+
+        <!-- newsletter -->
+        <div>
+          <h5 class="text-2xl font-semibold mb-6">Stay up to date</h5>
+
+          <div class="relative w-72">
+            <input type="email" placeholder="Your email address" class="w-full bg-gray-700 text-gray-300 placeholder-gray-400 rounded-xl py-2 pl-4 pr-12 outline-none border border-gray-600" />
+            <button class="absolute right-3 top-1/2 -translate-y-1/2">
+              <img src="./images/send.svg" class="w-5 opacity-70" alt="send icon" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
